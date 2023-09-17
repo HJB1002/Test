@@ -1,0 +1,143 @@
+﻿body {
+    
+}
+  
+.top-menu {
+    background-color: dimgrey;
+    width: 100%;
+    height:50px;
+    padding:5px;
+}
+header{
+    float:left;
+    width:15%;
+    height:50px;
+    object-fit:scale-down;
+}
+nav{
+    float:left;
+    width:70%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:medium;
+}
+   
+#menu ul
+{
+    list-style-type: none;
+    text-align:center;
+}
+#menu li{
+    display:inline-block;
+    width:120px;
+    height:40px;
+    line-height:40px;
+}
+#menu a{
+    text-decoration:none;
+    color:black;
+}
+.main-content{
+    background-color:aliceblue;
+    width:100%;
+    height:600px;
+    padding:5px;
+    display:table;
+}
+#aside1 {
+    width: 10%;
+    display: table-cell;
+    background-color: pink;
+    text-align: center;
+}
+#aside2 {
+    width: 10%;
+    display: table-cell;
+    background-color:pink;
+    text-align:center;
+}
+footer{
+    width:100%;
+    height:40%;
+    background-color:black;
+
+}
+ #Product tr, td{
+    border:solid black;
+    position:relative;
+}
+ #Product td{
+     width:300px;
+     height:220px;
+     background-color:plum;
+     text-align:center;
+ }
+
+ a.button{
+     appearance:button;
+     text-decoration: none;
+     background-color:deeppink;
+     width:150px;
+     height:40px;
+     border:solid black;
+     border-radius:22px;
+     text-align:center;
+     color:black;
+     padding-top:10px;
+ }
+ a.button:hover{
+     background-color:white;
+ }
+.xemProduct {
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    border-top: solid black;
+    font-size: 20px;
+    position:absolute; 
+    bottom:0;
+    left:0;
+    line-height:35px;
+}
+ .xemProduct:hover{
+     background-color:lightpink;
+ }
+
+ #imgProduct img{
+     width:700px;
+     height:500px;
+     float:left;
+     margin-right:15px;
+     margin-left:20px;
+ }
+ #imgProduct li{
+     font-size:25px;
+     padding:5px;
+
+ }
+ #imgProduct ul{
+     list-style-type:none;
+     padding:5px;
+ }
+.detailButton {
+    border-radius:22px;
+    width:170px;
+    height:50px;
+    background-color:hotpink;
+    color:white;
+    font-size:18px;
+    margin:20px;
+    padding:5px;
+    text-align:center;
+}
+.detailButton:hover{
+    background-color:deeppink;
+}
+
+
+
+
+
+
+
+
